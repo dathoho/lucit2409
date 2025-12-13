@@ -126,11 +126,11 @@ export default function DashboardCharts({
             {departmentRevenueData.length > 0 ? (
               <PieChart>
                 <Pie
-                  data={departmentRevenueData}
+                  data={departmentRevenueData as any}
                   cx="50%"
                   cy="50%"
                   labelLine={true}
-                  label={renderSimpleLabel}
+                  label={renderSimpleLabel as any}
                   innerRadius={65}
                   outerRadius={100}
                   fill="#8884d8"
