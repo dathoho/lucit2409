@@ -1,10 +1,14 @@
 import NextAuth from "next-auth";
 import { authConfig } from "./auth.config";
 
-export const { auth: middleware } = NextAuth(authConfig);
+// 1. Call NextAuth(authConfig) to get the Auth object.
+const { auth } = NextAuth(authConfig);
 
-//configure which paths the middleware should run on
+// 2. Export the 'auth' function directly with the required 'middleware' name.
+// This ensures Next.js recognizes it as a function export.
+export { auth as middleware };
 
+// Your config remains correct
 export const config = {
-  matcher: ["/admin/:path*", "/user/:path*", "/appointments/:path*"],
+  matcher: ["/admin/:path*", "/user/:path*", "/appointments/:path*"],
 };
