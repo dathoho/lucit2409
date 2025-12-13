@@ -115,7 +115,7 @@ export default function DashboardCharts({
         </CardContent>
       </Card>
       {/* Department Revenue Card */}
-      {/* <Card className="p-6 rounded-lg border-border-2">
+      {/* { <Card className="p-6 rounded-lg border-border-2">
         <CardHeader className="p-0">
           <CardTitle className="body-semibold text-text-title">
             Department Revenue Distribution
@@ -154,7 +154,7 @@ export default function DashboardCharts({
             )}
           </ResponsiveContainer>
         </CardContent>
-      </Card> */}
+      </Card> } */}
     </div>
   );
 }
