@@ -47,6 +47,13 @@ export default function MenuClient({
           Home
         </Link>
 
+        <Link
+          href="/departments"
+          className="body-regular text-text-body hover:text-primary"
+        >
+          Our Departments
+        </Link>
+
         {/* Book Appointment Button */}
         <Button asChild variant="brand" size="lg">
           <Link href="/#our-doctors" className="text-text-caption-2">

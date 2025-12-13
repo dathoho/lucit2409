@@ -269,3 +269,32 @@ export interface AdminDoctorDataSimple {
   id: string;
   name: string | null;
 }
+
+export interface Specialty {
+  id: string;
+  name: string;
+  shortDescription: string;
+  fullDescription: string;
+  iconName: 'heart' | 'brain' | 'child' | 'bone' | 'skin' | 'eye';
+  imageUrl: string;
+  
+  // Extended details (previously AI generated, now static)
+  commonConditions: string[];
+  treatments: string[];
+  latestAdvancements: string;
+}
+
+// AISpecialtyDetails and LoadingState are no longer needed for the UI
+export interface AISpecialtyDetails {
+  overview: string;
+  commonConditions: string[];
+  latestAdvancements: string;
+  treatments: string[];
+}
+
+export enum LoadingState {
+  IDLE = 'IDLE',
+  LOADING = 'LOADING',
+  SUCCESS = 'SUCCESS',
+  ERROR = 'ERROR'
+}

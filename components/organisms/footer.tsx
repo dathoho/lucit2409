@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row justify-between">
           {/* Highland Medical Center Section */}
           <div className="flex flex-col gap-4">
-            <h4 className="text-text-caption-2">Highland Medical Center</h4>
+            <h4 className="text-text-caption-2">LUC2409IT Medical Center</h4>
             <p className="body-regular text-text-caption-1">
               Excellence in Healthcare, Committed to Your Well-being
             </p>
@@ -23,7 +23,7 @@ export default function Footer() {
               </div>
               <div className="flex items-center space-x-2 body-regular text-text-caption-1">
                 <Mail size={16} />
-                <span>info@highland.med</span>
+                <span>info@LUC2409IT.med</span>
               </div>
               <div className="flex items-center space-x-2  body-regular text-text-caption-1">
                 <MapPin size={16} />
@@ -35,7 +35,7 @@ export default function Footer() {
 
         {/* Copyright Section */}
         <div className="text-center body-regular text-text-caption-1">
-          <p>&copy; 2025 Highland Medical Center. All rights reserved.</p>
+          <p>&copy; 2025 LUC2409IT Medical Center. All rights reserved.</p>
         </div>
       </div>
     </footer>
