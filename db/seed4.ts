@@ -1,13 +1,13 @@
 import { PrismaClient, LeaveType } from "@/lib/generated/prisma";
-
-const prisma = new PrismaClient();
+import { prisma } from "@/db/prisma";
+//const prisma = new PrismaClient();
 
 async function main() {
   // --- Placeholder for Doctor IDs ---
   const doctorIds = [
-    "5cd1883a-a703-4a76-b5aa-0d9013f5bc88", // Replace with actual doctor ID
     "48d453b0-32a3-4eb5-9102-6ee09d2453df", // Replace with actual doctor ID
     "997b3901-b8b5-45a0-ac42-04cfa60b81cc", // Replace with actual doctor ID
+    "5cd1883a-a703-4a76-b5aa-0d9013f5bc88", // Replace with actual doctor ID
   ];
 
   // --- Leave Dates ---
