@@ -174,7 +174,7 @@ export default function departmentDetail() {
         </h1>
         <p className="text-xl text-slate-600 max-w-2xl mx-auto leading-relaxed">
           Explore our departments to learn how we provide world-class care. 
-          Expand each section to ask our AI assistant for detailed medical insights.
+  
         </p>
       </div>
 
