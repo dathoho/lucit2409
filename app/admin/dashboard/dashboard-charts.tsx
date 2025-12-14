@@ -133,7 +133,7 @@ export default function DashboardCharts({
                   label={renderSimpleLabel as any}
                   innerRadius={65}
                   outerRadius={100}
-                  fill="#8884d8"
+                  fill="#817fa2ff"
                   paddingAngle={0}
                   dataKey="value"
                 >
